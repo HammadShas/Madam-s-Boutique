@@ -1,0 +1,91 @@
+#img1
+{
+    height: 9rem;
+    width: 23rem;
+    max-width: 100%;
+    margin-left: 65rem;
+    margin-top: 0rem;
+}
+#h1
+{
+    margin: 0rem;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    float: left;
+}
+#h2
+{
+    font-size: 1.6rem;
+    text-indent: 42rem;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+#search
+{
+    float: right;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+    border: .2rem solid black;
+    
+}
+.fas
+{
+    float: right;
+    color: black;
+    margin-top: 3rem;
+    margin-right:2rem;
+    font-size: 2.3rem;
+}
+/* compare page */
+.containers
+{
+    height: 110vh;
+    background: url(about\ us.jpg);
+    padding: 5rem 6rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.row
+{
+    max-width: 100%;
+    width: auto;
+    padding: 0rem 0rem 4rem;
+    border: .2rem solid black;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .5);
+}
+.row h1
+{
+    margin: 0 0 2rem;
+    padding: 0;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: #044463;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row label
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card
+{
+    height: 47rem;
+    max-width: 100%;
+    border: .2rem solid black;
+    font-size: 1.3rem;
+}
+.card img
+{
+    height: 35rem;
+    max-width: 100%;
+    border: .4rem solid black;
+}

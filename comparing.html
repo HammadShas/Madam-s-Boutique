@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brand's Comparing</title>
+
+    <link rel="icon" href="home images/FAVICON.ICO" type="image/x-icon" sizes="64x64">
+
+    <link rel="text" href="css/bootstrap.css">
+  
+    <link rel="text" href="js/bootstrap.js">
+
+    <script src="https://kit.fontawesome.com/d8c6a1a5f0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="stylesheet" href="media queries.css">
+
+    <link rel="stylesheet" href="Compare Css.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <!-- News -->
+    <div>
+      <h6 id="h1">Welcome TO Madam'S Boutique</h6>
+  
+      <h6 id="h2">New Arrival Is Here For 2022</h6>
+    </div>
+    <!-- header -->
+    <div>
+       <a href="index.html">
+       <img id="img1" src="home images/Madam's Boutique.png">
+      </a>
+       <i class="fas fa-shopping-bag"></i>
+       <i class="fas fa-user-plus"></i>
+       <a href="">
+       <i class="fas fa-search"></i>
+       </a>
+       <input id="search" type="search" placeholder="Search">
+      </div>
+      <!-- Nav Bar -->
+       <div class="menu-bar">
+       <ul>
+         <li class="active"><a href="#">New Arrivals</a></li>
+         <li><a href="#">Jackets</a>
+          <div class="Sub-Menu-1">
+             <ul>
+               <li><a href="Leather Jackets.html">Leather Jacket</a></li>
+               <li><a href="Denim Jackets.html">Denim Jacket</a></li>
+               <li><a href="Hoodie.html">Hoodie</a></li>
+               <li><a href="Quilted Jackets.html">Quilted Jacket</a></li>
+               <li><a href="Puffer Jackets.html">Puffer Jacket</a></li>
+               <li><a href="Cashmere-Wool Jackets.html">Cashmere/Wool Jackets</a></li>
+             </ul>
+           </div>
+           </li>
+           <li><a href="#">Skirts</a>
+            <div class="Sub-Menu-1">
+             <ul>
+               <li><a href="A-Line Skirts.html">A-line </a></li>
+               <li><a href="Full Skirt.html">Full Skirt</a></li>
+               <li><a href="Long-Short Skirt.html">Long/Short Skirt</a></li>
+               <li><a href="Fitted Skirt.html">Fitted Skirt</a></li>
+             </ul>
+           </div>
+           </li>
+         <li><a href="#">Coats</a>
+          <div class="Sub-Menu-1">
+            <ul>
+              <li><a href="Cocoon Coats.html">Cocoon Coat</a></li>
+              <li><a href="Cape Coat.html">Cape Coat</a></li>
+            </ul>
+          </div>
+        </li>
+         <li><a href="#">Occasional</a>
+        <div class="Sub-Menu-1">
+          <ul>
+            <li><a href="Casual Wear.html">Casual Wear </a></li>
+            <li><a href="Formal Wear.html">Formal Wear</a></li>
+          </ul>
+        </div>
+         <li><a href="#">Pants</a>
+         <div class="Sub-Menu-1">
+          <ul>
+            <li><a href="Dress Pant.html">Dress Pants </a></li>
+            <li><a href="Jeans.html">Jeans</a></li>
+          </ul>
+         <li><a href="#">Shirts</a>
+         <div class="Sub-Menu-1">
+          <ul>
+           <li><a href="T-Shirts.html">T-Shirts</a></li>
+           <li><a href="SwearShirts.html">SweatShirts</a></li>
+         </ul>
+         </div>
+         <li><a href="comparing.html">Brand's Comaprison</a></li>
+       </ul>
+    </div>
+<div class="containers">
+    <div class="row">
+        <h1 class="text-center my-5 text-dark">Compare Page</h1>
+        <div class="col-lg-4 col-md-6 offset-lg-2">
+            <div class="form-group">
+                <label for="" class="text-dark">Brand</label>
+                
+               <input type="text" id="brand" list="data" onchange="brand1()" class="form-control">
+               <datalist id="data">
+                   <option value="NIKE">
+                   <option value="GUCCI">
+                   <option value="LOUIS VUITTON">
+                   <option value="ADIDAS">
+                   <option value="CHANEL">
+                   <option value="ZARA">
+                   <option value="UNIQLO">
+                   <option value="H & M">
+                   <option value="CARTIER">
+                   <option value="HERMES">    
+               </datalist>
+               <!-- <select  id="brand" onchange="brand1()" class="form-select">
+                    <option selected>select</option>
+                    <option>APPLE</option>
+                    <option>SAMSUNG</option>
+                    <option>MI</option>
+                    <option>MOTOROLLA</option>
+                    <option>LG</option>
+                </select> -->
+            </div>z
+            <div class="form-group" id="showproduct">
+            </div>
+        </div>
+
+        <!-- second comparison data-->
+        <div class="col-lg-4 col-md-6">
+            <div class="form-group">
+                <label for="" class="text-dark">Brand</label>
+                
+               <input type="text" id="brand1" list="data" onchange="brand2()" class="form-control">
+               <datalist id="data">
+                   <option value="NIKE">
+                   <option value="GUCCI">
+                   <option value="LOUIS VUITTON">
+                   <option value="ADIDAS">
+                   <option value="CHANEL">
+                   <option value="ZARA">
+                   <option value="UNIQLO">
+                   <option value="H & M">
+                   <option value="CARTIER">
+                   <option value="HERMES"> 
+               </datalist>
+               <!-- <select  id="brand" onchange="brand1()" class="form-select">
+                    <option selected>select</option>
+                    <option>APPLE</option>
+                    <option>SAMSUNG</option>
+                    <option>MI</option>
+                    <option>MOTOROLLA</option>
+                    <option>LG</option>
+                </select> -->
+            </div>
+            <div class="form-group" id="showproduct1">
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    function brand1() {
+        var first_brand_select= document.getElementById("brand").value;
+        var show_product = document.getElementById("showproduct");
+        switch(first_brand_select){
+
+            case 'NIKE':show_product.innerHTML=`
+            
+            <div class="card">
+                 <div class="card-body text-center">
+                    <img src="Brands logo/Nike Logo.jpg" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $32 billion, making it the most valuable brand among clothing brands.</p>
+             <hr>
+            <p>Brand Value: $30,443M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'GUCCI':show_product.innerHTML=`
+            
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Gucci Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $15.6 billion, making it the second most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $15,599M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+            
+            case 'LOUIS VUITTON':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Louis Vuitto logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $14.86 billion, making it the third most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $14,858M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'ADIDAS':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Adidas Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+            <hr>
+            <p>In 2022 the brand alone was valued in excess of $14.3 billion, making it the fourth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $14,342M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'CHANEL':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Chanel logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $13.2 billion, making it the fifth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $13,240M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'ZARA':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Zara Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $13.2 billion, making it the sixth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $13,156M </p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+            
+            case 'UNIQLO':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/UNIQLO logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $13 billion, making it the seventh most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $13,071M </p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'H & M':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/H&M Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $12.4 billion, making it the eighth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $12,368M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'CARTIER':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Cartier Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $12.1 billion, making it the ninth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $12,087M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'HERMES':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Hermes Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $2.2 billion, making it the tenth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $11,656M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+        }
+    } 
+    function brand2() {
+        var first_brand_select= document.getElementById("brand1").value;
+        var show_product = document.getElementById("showproduct1");
+        switch(first_brand_select){
+
+            case 'NIKE':show_product.innerHTML=`
+            
+            <div class="card">
+                 <div class="card-body text-center">
+                    <img src="Brands logo/Nike Logo.jpg" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $32 billion, making it the most valuable brand among clothing brands.</p>
+             <hr>
+            <p>Brand Value: $30,443M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'GUCCI':show_product.innerHTML=`
+            
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Gucci Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $15.6 billion, making it the second most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $15,599M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+            
+            case 'LOUIS VUITTON':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Louis Vuitto logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $14.86 billion, making it the third most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $14,858M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'ADIDAS':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Adidas Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+            <hr>
+            <p>In 2022 the brand alone was valued in excess of $14.3 billion, making it the fourth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $14,342M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'CHANEL':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Chanel logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $13.2 billion, making it the fifth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $13,240M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'ZARA':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Zara Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $13.2 billion, making it the sixth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $13,156M </p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+            
+            case 'UNIQLO':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/UNIQLO logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $13 billion, making it the seventh most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $13,071M </p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'H & M':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/H&M Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $12.4 billion, making it the eighth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $12,368M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'CARTIER':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Cartier Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $12.1 billion, making it the ninth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $12,087M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+
+            case 'HERMES':show_product.innerHTML=`
+             
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="Brands logo/Hermes Logo.png" alt="" class="img-fluid">
+                    <div class="card-title">
+                        <hr>
+            <p>In 2022 the brand alone was valued in excess of $2.2 billion, making it the tenth most valuable brand among clothing brands.</p>
+            <hr>
+            <p>Brand Value: $11,656M</p>
+                    </div>
+                </div>
+            </div>
+            `;
+            break;
+        }
+    }
+</script>
+<!-- footer -->    
+<footer>
+    <div class="contain">
+      <img id="img2" src="home images/Madam's Boutique.png" alt="">
+      
+      <div class="sec CustomerCare">
+        <h2>Customer Care</h2>
+        <ul>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="Privacy.html">Privacy Policy</a></li>
+          <li><a href="Terms & Condition.html">Terms & Conditions</a></li>
+          <li><a href="Contact Us.html">Contact Us</a></li>
+        </ul>
+        </div>
+        <div class="sec contact">
+          <h2>Contact Info</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span>Aptech Metro Star Gate<br>Shah Faisal Colony Flyover<br>Faisal Cantonment, Karachi</span>
+            </li>
+            <li>
+              <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <p><a href="tel:123456789">(+92) 21-111 278 324</a><br>
+                 <a href="tel:123456789">(+92) 21-111 278 324</a></p>
+            </li>
+            <li>
+              <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <p><a href="info@aptech-education.com.pk ">info@aptech-education.com.pk</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="sec FollowUs">
+          <h2>Follow Us</h2>
+          <ul class="sci">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <p>Copyright © Madam's Boutique. All Rights Reserved.</p>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

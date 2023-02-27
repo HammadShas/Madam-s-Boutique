@@ -1,0 +1,261 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* NavBar */
+.menu-bar
+{
+    background: black;
+    text-align: center;
+
+    font-size: 1.6rem;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li
+{
+    margin: .5rem;
+    padding: 1.5rem;
+}
+.menu-bar ul li a
+{
+    text-decoration:none ;
+    color: white;
+}
+.active,.menu-bar ul li:hover
+{
+    background: red;
+    border-radius: .3rem;
+}
+.Sub-Menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .Sub-Menu-1
+{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 1.5rem;
+    margin-left: -1.5rem;
+}
+.menu-bar ul li:hover .Sub-Menu-1 ul
+{
+    display: block;
+    margin: 1rem;
+}
+.menu-bar ul li:hover .Sub-Menu-1 ul li
+{
+    width: 15rem;
+    padding: 1rem;
+    border-bottom: .1rem solidf white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .Sub-Menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .Sub-Menu-1 ul li a:hover
+{
+    color: red;
+}
+footer
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 5rem 10rem;
+    background-color:#111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#img2
+{
+    height: auto;
+    width: 27%;
+    max-width: 100%;
+    margin-left: -5rem;
+}
+footer .contain
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .contain .sec
+{
+    margin-right: 3rem;
+}
+footer .contain .sec.FollowUs
+{
+    width: 20%;
+}
+footer .contain h2
+{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+footer .contain h2:before
+{
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+    width: 10rem;
+    height: .2rem;
+    background: #f00;
+}
+.sci
+{
+    margin-top: 2rem;
+    display: flex;
+    margin-left: -2rem;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    text-decoration: none;
+    border-radius: .4rem;
+} 
+.sci li a:hover
+{
+    background: #f00;
+}
+.sci li a .fa
+{
+    color: #fff;
+    font-size: 2rem;
+}
+.CustomerCare
+{
+    position: relative;
+    width: 15%;
+    margin-left: 5rem;
+}
+.CustomerCare ul li
+{
+    list-style: none;
+    margin-left: -2rem;
+}
+.CustomerCare ul li a
+{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.CustomerCare ul li a:hover
+{
+    color: #fff;
+}
+.contact
+{
+    width: calc(25% - 6rem);
+    margin-right: 0 !important;
+}
+.fa-phone
+{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.contact .info
+{
+    position: relative;
+}
+.contact .info li
+{
+    display: flex;
+    margin-bottom: 1.6rem;
+    margin-left: -2rem;
+}
+.contact .info li span:nth-child(1)
+{
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.contact .info li span
+{
+    color: #999;
+}
+.contact .info li a
+{
+    color: #999;
+    text-decoration: none;
+}
+.contact .info li a:hover
+{
+    color: #fff;
+}
+.copyright
+{
+    width: 100%;
+    background: #181818;
+    padding: .8rem 10rem;
+    text-align: center;
+    color: #999;
+    font-size: 1.2rem;
+}
+/* about us */
+.back
+{
+    padding: 0 7rem;
+    height: 100%;
+    background: url(about\ us.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: row;
+}
+.content
+{
+    position: relative;
+    max-width: 67%;
+    margin: 2rem;
+    margin-left: 0;
+    padding: 5rem;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .5);
+}
+.content h1
+{
+    margin: 0 0 2rem;
+    padding: 0;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+
+}
+.content p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+}

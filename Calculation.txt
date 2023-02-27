@@ -1,0 +1,13 @@
+1  px  = 6.25 %
+10 px  = 62.25 %
+1  rem = 10 px
+
+998 px devices:
+Font-Size: 55% = 8.8px (8.8 x 6.25 = 55%) (55% / 6.25 = 8.8px)
+
+768 px devices:
+Font-Size: 45% = 7.2px (7.2px x 6.25 = 45%) (45% / 6.25 = 7.2px)
+
+1536px x 454.40px
+
+500px x 15px

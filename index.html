@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Madam's Boutique</title>
+
+    <link rel="icon" href="home images/FAVICON.ICO" type="image/x-icon" sizes="64x64">
+
+    <link rel="text" href="css/bootstrap.css">
+  
+    <link rel="text" href="js/bootstrap.js">
+
+    <script src="https://kit.fontawesome.com/d8c6a1a5f0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="stylesheet" href="media queries.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- JavaScript -->
+<script>
+  var counter = 1;
+  setInterval(function()
+  {
+    document.getElementById('radio' + counter).checked=true;
+    counter++;
+    if(counter > 4)
+    {
+      counter = 1; 
+    }
+  },5000);
+</script>
+<body>
+  <!-- News -->
+  <div>
+    <h6 id="h1">Welcome TO Madam'S Boutique</h6>
+
+    <h6 id="h2">New Arrival Is Here For 2022</h6>
+  </div>
+  <!-- header -->
+  <div>
+     <a href="Home.html">
+     <img id="img1" src="home images/Madam's Boutique.png">
+    </a>
+     <i class="fas fa-shopping-bag"></i>
+     <i class="fas fa-user-plus"></i>
+     <a href="">
+     <i class="fas fa-search"></i>
+     </a>
+     <input id="search" type="search" placeholder="Search">
+    </div>
+    <!-- Nav Bar -->
+     <div class="menu-bar">
+     <ul>
+       <li class="active"><a href="#">New Arrivals</a></li>
+       <li><a href="#">Jackets</a>
+        <div class="Sub-Menu-1">
+           <ul>
+             <li><a href="Leather Jackets.html">Leather Jacket</a></li>
+             <li><a href="Denim Jackets.html">Denim Jacket</a></li>
+             <li><a href="Hoodie.html">Hoodie</a></li>
+             <li><a href="Quilted Jackets.html">Quilted Jacket</a></li>
+             <li><a href="Puffer Jackets.html">Puffer Jacket</a></li>
+             <li><a href="Cashmere-Wool Jackets.html">Cashmere/Wool Jackets</a></li>
+           </ul>
+         </div>
+         </li>
+         <li><a href="#">Skirts</a>
+          <div class="Sub-Menu-1">
+           <ul>
+             <li><a href="A-Line Skirts.html">A-line </a></li>
+             <li><a href="Full Skirt.html">Full Skirt</a></li>
+             <li><a href="Long-Short Skirt.html">Long/Short Skirt</a></li>
+             <li><a href="Fitted Skirt.html">Fitted Skirt</a></li>
+           </ul>
+         </div>
+         </li>
+       <li><a href="#">Coats</a>
+        <div class="Sub-Menu-1">
+          <ul>
+            <li><a href="Cocoon Coats.html">Cocoon Coat</a></li>
+            <li><a href="Cape Coat.html">Cape Coat</a></li>
+          </ul>
+        </div>
+      </li>
+       <li><a href="#">Occasional</a>
+      <div class="Sub-Menu-1">
+        <ul>
+          <li><a href="Casual Wear.html">Casual Wear </a></li>
+          <li><a href="Formal Wear.html">Formal Wear</a></li>
+        </ul>
+      </div>
+       <li><a href="#">Pants</a>
+       <div class="Sub-Menu-1">
+        <ul>
+          <li><a href="Dress Pant.html">Dress Pants </a></li>
+          <li><a href="Jeans.html">Jeans</a></li>
+        </ul>
+       <li><a href="#">Shirts</a>
+       <div class="Sub-Menu-1">
+        <ul>
+         <li><a href="T-Shirts.html">T-Shirts</a></li>
+         <li><a href="SwearShirts.html">SweatShirts</a></li>
+       </ul>
+       </div>
+       <li><a href="comparing.html">Brand's Comaprison</a></li>
+     </ul>
+  </div>
+  <!-- image slider start -->
+  <div class="slider">
+    <div class="slides">
+      <!-- radio button starts -->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!-- radio button ends -->
+      <!-- slide images start -->
+      <div class="slide first">
+        <img src="WELCOME.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="NEW ARRIVAL.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="WE HAVE BEST QUALITY CLOTHES FOR YOU.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="GIVE US YOUR FEEDBACK.png" alt="">
+      </div>
+       <!-- slide images end -->
+       <!-- automatic navigation start -->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      <!-- automatic navigation end -->
+    </div>
+    <!-- manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!-- manual navigation end-->
+  </div>
+  <!-- image slider end -->
+
+  <!-- card 1 -->
+  <div class="container">
+    <div class="row gy-3 my-3">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card" id="coath1">
+    <img src="Jackets/Leather Jackets/Leather Jacket 5.jpeg" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <h1 class="card-title">Jackets</h1>
+      <p class="card-text">We Have Best Quality Jackets.</p>
+      <a href="#" class="btn btn-primary">Shop Now</a>
+      </div>
+    </div>
+  </div>
+  <!-- card 2 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card">
+    <img src="Skirts/A-Line/A-Line 1.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">Skirts</h1>
+      <p class="card-text">We Have Best Quality Skirts.</p>
+      <a href="#" class="btn btn-primary">Shop Now</a>
+      </div>
+    </div>
+  </div>
+  <!-- card 3 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card">
+    <img src="Coats/Cape Coats/Cape Coat 4.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">Coats</h1>
+      <p class="card-text">We Have Best Quality Coats.</p>
+      <a href="#" class="btn btn-primary">Shop Now</a>
+    </div>
+    </div>
+  </div>
+  <!-- card 4 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card" >
+    <img src="Occasional/Casual Wear/Casual Wear 1.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">Occasional</h1>
+      <p class="card-text">We Have Best Quality Occasional Clothes.</p>
+      <a href="#" class="btn btn-primary">Shop Now</a>
+    </div>
+  </div>
+  </div>
+  <!-- card 5 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card" >
+    <img src="Pants/Dress Pants/Dress Pant 1.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">Pants</h1>
+      <p class="card-text">We Have Best Quality Pants.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+  <!-- card 6 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card" >
+    <img src="Shirts/T-Shirts/T-Shirt 5.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">Shirts</h1>
+      <p class="card-text">We Have Best Quality Shirts.</p>
+      <a href="#" class="btn btn-primary">Shop Now</a>
+    </div>
+   </div>
+   </div>
+   <!-- card 7 -->
+  <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card" >
+      <img src="Brands logo/Gucci Logo.png" class="card-img-top" alt="..." height="5rem" width="5%">
+      <div class="card-body">
+        <h1 class="card-title">Brand's Comparison</h1>
+        <p class="card-text">Compare The World's Top.</p>
+        <a href="comparing.html" class="btn btn-primary">Shop Now</a>
+      </div>
+     </div>
+     </div>
+</div>
+</div>
+
+<!-- footer -->    
+    <footer>
+      <div class="contain">
+        <img id="img2" src="home images/Madam's Boutique.png" alt="">
+        
+        <div class="sec CustomerCare">
+          <h2>Customer Care</h2>
+          <ul>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="Privacy.html">Privacy Policy</a></li>
+            <li><a href="Terms & Condition.html">Terms & Conditions</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+          </ul>
+          </div>
+          <div class="sec contact">
+            <h2>Contact Info</h2>
+            <ul class="info">
+              <li>
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                <span>Aptech Metro Star Gate<br>Shah Faisal Colony Flyover<br>Faisal Cantonment, Karachi</span>
+              </li>
+              <li>
+                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <p><a href="tel:123456789">(+92) 21-111 278 324</a><br>
+                   <a href="tel:123456789">(+92) 21-111 278 324</a></p>
+              </li>
+              <li>
+                <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <p><a href="info@aptech-education.com.pk ">info@aptech-education.com.pk</a></p>
+              </li>
+            </ul>
+          </div>
+          <div class="sec FollowUs">
+            <h2>Follow Us</h2>
+            <ul class="sci">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>Copyright © Madam's Boutique. All Rights Reserved.</p>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
