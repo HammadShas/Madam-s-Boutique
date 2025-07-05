@@ -1,5 +1,13 @@
-[Live Demo](https://hammadshas.github.io/Madam-s-Boutique/)
 # Madam's Boutique 
+
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fhammadshas.github.io%2FMadam-s-Boutique)](https://hammadshas.github.io/Madam-s-Boutique)
+
+![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
 
 Madam’s Boutique is a modern and elegant online storefront for designer and branded women’s fashion. This website showcases a curated collection of clothing, accessories, and boutique wear from top designers. The platform allows users to browse, compare, and shop with ease through a responsive and user-friendly interface.
 
