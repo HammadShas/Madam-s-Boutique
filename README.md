@@ -1,10 +1,10 @@
-# Madam's Boutique 👗
+# Madam's Boutique 
 
 Madam’s Boutique is a modern and elegant online storefront for designer and branded women’s fashion. This website showcases a curated collection of clothing, accessories, and boutique wear from top designers. The platform allows users to browse, compare, and shop with ease through a responsive and user-friendly interface.
 
 ---
 
-## 🧩 Problem Statement
+## Problem Statement
 
 Madam’s Boutique aims to showcase and sell exclusive women’s clothing by providing:
 
@@ -17,21 +17,21 @@ Madam’s Boutique aims to showcase and sell exclusive women’s clothing by pro
 
 ---
 
-## ✨ Features
+## Features
 
-- 🏠 Homepage with sliders, featured sections, and logo
-- 👗 Category-based product pages (Skirts, Jackets, Coats, Pants, etc.)
-- 🛒 Mini-cart with live item counter and remove functionality
-- 📦 Full cart page with quantity and price details
-- 🔄 LocalStorage-powered persistent cart state
-- 🆚 Brand comparison page
-- 📸 Gallery of featured collections
-- 🗺️ Contact page with address and embedded map
-- ℹ️ About, Privacy Policy, Terms & Conditions
+- Homepage with sliders, featured sections, and logo
+- Category-based product pages (Skirts, Jackets, Coats, Pants, etc.)
+- Mini-cart with live item counter and remove functionality
+- Full cart page with quantity and price details
+- LocalStorage-powered persistent cart state
+- Brand comparison page
+- Gallery of featured collections
+- Contact page with address and embedded map
+- About, Privacy Policy, Terms & Conditions
 
 ---
 
-## 💡 Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (Custom + Bootstrap)
@@ -41,7 +41,7 @@ Madam’s Boutique aims to showcase and sell exclusive women’s clothing by pro
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 Madam-s-Boutique/
@@ -101,11 +101,11 @@ Madam-s-Boutique/
 │   └── subfolders & images accordingly
 ```
 
-> 🎨 All product images are organized by type inside clearly named folders.
+> All product images are organized by type inside clearly named folders.
 
 ---
 
-## 🛠 How to Run Locally
+## How to Run Locally
 
 1. Clone the repository:
 
@@ -119,7 +119,7 @@ Madam-s-Boutique/
 
 ---
 
-## 🧪 Usage Instructions
+## Usage Instructions
 
 - Browse any product page
 - Click `Add to Cart` → mini-cart updates in real time
@@ -130,20 +130,20 @@ Madam-s-Boutique/
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 **Hammad Shas**  
 GitHub: [@HammadShas](https://github.com/HammadShas)
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Bootstrap and FontAwesome are included locally
 - Project is fully static, ideal for portfolio deployment
@@ -151,4 +151,4 @@ GitHub: [@HammadShas](https://github.com/HammadShas)
 
 ---
 
-> ✅ Feel free to fork, use, or contribute to this project for learning or portfolio purposes.
+> Feel free to fork, use, or contribute to this project for learning or portfolio purposes.
