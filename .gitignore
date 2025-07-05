@@ -7,6 +7,7 @@ Thumbs.db
 *.tmp
 *.bak
 *.swp
+*.swo
 
 # Ignore source maps
 *.map
@@ -22,3 +23,19 @@ Desktop.ini
 # Cache or environment files
 .env
 .cache/
+
+# Ignore source map files
+*.map
+
+# Ignore all Bootstrap JS except minified bundle
+js/bootstrap.js
+js/bootstrap.bundle.js
+js/bootstrap.esm.js
+js/bootstrap.esm.min.js
+
+# Ignore all Bootstrap CSS except main minified file
+css/bootstrap-grid*
+css/bootstrap-reboot*
+css/bootstrap-utilities*
+css/bootstrap.rtl*
+css/bootstrap.css
