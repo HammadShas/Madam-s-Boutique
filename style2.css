@@ -1,3 +1,6 @@
+html {
+  scroll-padding-top: 100px; /* adjust based on your fixed navbar height */
+}
 body
 {
     font-family: 'Poppins', sans-serif;
@@ -11,7 +14,8 @@ body
 {
     background: black;
     text-align: center;
-
+    position: relative;
+    z-index: 1000;
     font-size: 1.6rem;
 }
 .menu-bar ul
@@ -225,38 +229,40 @@ footer .contain h2:before
     font-size: 1.2rem;
 }
 /* about us */
-.back
-{
+.back {
     padding: 0 7rem;
     height: 100%;
-    background: url(about\ us.jpg);
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+        url(Background.png); /* Background image with overlay */
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     flex-direction: row;
 }
-.content
-{
+
+.content {
     position: relative;
     max-width: 67%;
     margin: 2rem;
     margin-left: 0;
     padding: 5rem;
-    background: rgba(255, 255, 255, .2);
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .5);
+    background: rgba(255, 255, 255, 0.3); /* Light transparent background for content */
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.5);
 }
-.content h1
-{
+
+.content h1 {
     margin: 0 0 2rem;
     padding: 0;
     font-size: 4.8rem;
     text-transform: uppercase;
-
+    color: 000; /* White text */
 }
-.content p
-{
+
+.content p {
     margin: 0;
     padding: 0;
     font-size: 1.8rem;
+    color: 000; /* White text */
 }

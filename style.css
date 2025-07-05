@@ -65,7 +65,7 @@
 .slide img
 {
     width: 100%;
-    height: 70rem;
+    height: 80rem;
 }
 /* css for manual slide navigation */
 .navigation-manual
@@ -219,4 +219,101 @@
     opacity: 1;
     transform: translate(0,-50%);
     transition-delay: .3s;
+}
+/* Cart Icon Badge */
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+  min-width: 20px;
+  text-align: center;
+}
+
+/* Cart Icon Styling */
+.fa-shopping-bag {
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  color: black;
+  transition: color 0.3s;
+}
+
+.fa-shopping-bag:hover {
+  color: #007bff;
+}
+
+/* Mini Cart Container */
+.mini-cart-summary {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  z-index: 9999;
+  font-size: 14px;
+  display: none;
+  max-height: 50vh; 
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #666 transparent;
+}
+
+.mini-cart-summary::-webkit-scrollbar {
+  width: 6px;
+}
+.mini-cart-summary::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+.mini-cart-summary::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Mini Cart List */
+.mini-cart-summary ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.mini-cart-summary li {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Remove Button in Mini Cart */
+.remove-mini-btn {
+  background: #e53935;
+  border: none;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background 0.3s;
+}
+
+.remove-mini-btn:hover {
+  background: #c62828;
+}
+
+/* View Full Cart Button */
+.mini-cart-summary .btn-sm {
+  margin-top: -2px;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
 }

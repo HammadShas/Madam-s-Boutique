@@ -23,8 +23,7 @@
 
     <link rel="stylesheet" href="contact.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <!-- JavaScript -->
@@ -52,7 +51,7 @@
      <a href="Home.html">
      <img id="img1" src="home images/Madam's Boutique.png">
     </a>
-     <i class="fas fa-shopping-bag"></i>
+     <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
      <i class="fas fa-user-plus"></i>
      <a href="">
      <i class="fas fa-search"></i>
@@ -127,16 +126,16 @@
       <!-- radio button ends -->
       <!-- slide images start -->
       <div class="slide first">
-        <img src="WELCOME.png" alt="">
+        <img src="First-Slider.png" alt="">
       </div>
       <div class="slide">
-        <img src="NEW ARRIVAL.png" alt="">
+        <img src="Second-Slider.png" alt="">
       </div>
       <div class="slide">
-        <img src="WE HAVE BEST QUALITY CLOTHES FOR YOU.png" alt="">
+        <img src="Third-Slider.png" alt="">
       </div>
       <div class="slide">
-        <img src="GIVE US YOUR FEEDBACK.png" alt="">
+        <img src="Fourth-Slider.png" alt="">
       </div>
        <!-- slide images end -->
        <!-- automatic navigation start -->
@@ -159,74 +158,134 @@
   </div>
   <!-- image slider end -->
 
-  <!-- card 1 -->
-  <div class="container">
-    <div class="row gy-3 my-3">
-      <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="card" id="coath1">
-    <img src="Jackets/Leather Jackets/Leather Jacket 5.jpeg" class="card-img-top" alt="..." >
+<div class="container my-4">
+  <div class="row gy-4 justify-content-center">
+  <!-- Card 1: Jackets -->
+<div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card">
+    <img src="Jackets/Leather Jackets/Leather Jacket 5.jpeg" class="card-img-top" alt="Jackets">
     <div class="card-body">
       <h1 class="card-title">Jackets</h1>
       <p class="card-text">We Have Best Quality Jackets.</p>
-      <a href="#" class="btn btn-primary">Shop Now</a>
+      <div class="dropdown">
+        <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Select Category
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="Leather Jackets.html">Leather Jackets</a></li>
+          <li><a class="dropdown-item" href="Denim Jackets.html">Denim Jackets</a></li>
+          <li><a class="dropdown-item" href="Hoodie.html">Hoodies</a></li>
+          <li><a class="dropdown-item" href="Quilted Jackets.html">Quilted Jackets</a></li>
+          <li><a class="dropdown-item" href="Puffer Jackets.html">Puffer Jackets</a></li>
+          <li><a class="dropdown-item" href="Cashmere-Wool Jackets.html">Cashmere/Wool Jackets</a></li>
+        </ul>
       </div>
     </div>
   </div>
-  <!-- card 2 -->
-  <div class="col-sm-6 col-md-4 col-lg-3">
+</div>
+
+<!-- Card 2: Skirts -->
+<div class="col-sm-6 col-md-4 col-lg-3">
   <div class="card">
-    <img src="Skirts/A-Line/A-Line 1.jpeg" class="card-img-top" alt="...">
+    <img src="Skirts/A-Line/A-Line 1.jpeg" class="card-img-top" alt="Skirts">
     <div class="card-body">
       <h1 class="card-title">Skirts</h1>
       <p class="card-text">We Have Best Quality Skirts.</p>
-      <a href="#" class="btn btn-primary">Shop Now</a>
+      <div class="dropdown">
+        <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Select Category
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="A-Line Skirts.html">A-Line</a></li>
+          <li><a class="dropdown-item" href="Full Skirt.html">Full Skirt</a></li>
+          <li><a class="dropdown-item" href="Long-Short Skirt.html">Long/Short Skirt</a></li>
+          <li><a class="dropdown-item" href="Fitted Skirt.html">Fitted Skirt</a></li>
+        </ul>
       </div>
     </div>
   </div>
-  <!-- card 3 -->
-  <div class="col-sm-6 col-md-4 col-lg-3">
+</div>
+
+<!-- Card 3: Coats -->
+<div class="col-sm-6 col-md-4 col-lg-3">
   <div class="card">
-    <img src="Coats/Cape Coats/Cape Coat 4.jpeg" class="card-img-top" alt="...">
+    <img src="Coats/Cape Coats/Cape Coat 4.jpeg" class="card-img-top" alt="Coats">
     <div class="card-body">
       <h1 class="card-title">Coats</h1>
       <p class="card-text">We Have Best Quality Coats.</p>
-      <a href="#" class="btn btn-primary">Shop Now</a>
-    </div>
+      <div class="dropdown">
+        <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Select Category
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="Cocoon Coats.html">Cocoon Coat</a></li>
+          <li><a class="dropdown-item" href="Cape Coat.html">Cape Coat</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  <!-- card 4 -->
-  <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="card" >
-    <img src="Occasional/Casual Wear/Casual Wear 1.jpeg" class="card-img-top" alt="...">
+</div>
+
+<!-- Card 4: Occasional -->
+<div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card">
+    <img src="Occasional/Casual Wear/Casual Wear 1.jpeg" class="card-img-top" alt="Occasional">
     <div class="card-body">
       <h1 class="card-title">Occasional</h1>
       <p class="card-text">We Have Best Quality Occasional Clothes.</p>
-      <a href="#" class="btn btn-primary">Shop Now</a>
+      <div class="dropdown">
+        <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Select Category
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="Casual Wear.html">Casual Wear</a></li>
+          <li><a class="dropdown-item" href="Formal Wear.html">Formal Wear</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  </div>
-  <!-- card 5 -->
-  <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="card" >
-    <img src="Pants/Dress Pants/Dress Pant 1.jpeg" class="card-img-top" alt="...">
+</div>
+
+<!-- Card 5: Pants -->
+<div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card">
+    <img src="Pants/Dress Pants/Dress Pant 1.jpeg" class="card-img-top" alt="Pants">
     <div class="card-body">
       <h1 class="card-title">Pants</h1>
       <p class="card-text">We Have Best Quality Pants.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="dropdown">
+        <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Select Category
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="Dress Pant.html">Dress Pants</a></li>
+          <li><a class="dropdown-item" href="Jeans.html">Jeans</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  </div>
-  <!-- card 6 -->
-  <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="card" >
-    <img src="Shirts/T-Shirts/T-Shirt 5.jpeg" class="card-img-top" alt="...">
+</div>
+
+<!-- Card 6: Shirts -->
+<div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="card">
+    <img src="Shirts/T-Shirts/T-Shirt 5.jpeg" class="card-img-top" alt="Shirts">
     <div class="card-body">
       <h1 class="card-title">Shirts</h1>
       <p class="card-text">We Have Best Quality Shirts.</p>
-      <a href="#" class="btn btn-primary">Shop Now</a>
+      <div class="dropdown">
+        <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Select Category
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="T-Shirts.html">T-Shirts</a></li>
+          <li><a class="dropdown-item" href="SwearShirts.html">SweatShirts</a></li>
+        </ul>
+      </div>
     </div>
-   </div>
-   </div>
+  </div>
+</div>
+
    <!-- card 7 -->
   <div class="col-sm-6 col-md-4 col-lg-3">
     <div class="card" >
@@ -234,13 +293,14 @@
       <div class="card-body">
         <h1 class="card-title">Brand's Comparison</h1>
         <p class="card-text">Compare The World's Top.</p>
-        <a href="comparing.html" class="btn btn-primary">Shop Now</a>
+        <a href="comparing.html" class="btn btn-outline-dark">Compare</a>
       </div>
      </div>
      </div>
 </div>
 </div>
-
+</div>
+</div>
 <!-- footer -->    
     <footer>
       <div class="contain">
@@ -286,8 +346,7 @@
     <div class="copyright">
       <p>Copyright © Madam's Boutique. All Rights Reserved.</p>
     </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/cart.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
   </body>
 </html>
